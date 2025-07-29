@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                     if (!fileExists('airbnb-clone')) {
-                        sh 'git clone https://github.com/issou24/airbnb-clone'
+                        sh 'git clone https://github.com/JeromeP906/clone'
                     } else {
                         echo 'Le répertoire existe déjà, saut du clonage.'
                     }
